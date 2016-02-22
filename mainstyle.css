@@ -1,33 +1,8 @@
-h1, p1, a, nav, li {
-	font-family: Verdana, Geneva, sans-serif;
-}
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0em 0em;
-    overflow: hidden;
-    background-color: #3d84a8;
-}
+@import "paragraph.css";
+@import "navbar.css";
 
-li {
-    float: left;
-}
+* { font-family: Verdana, Geneva, sans-serif;}
 
-li a {
-    display: inline-block;
-    color: White;
-    text-align: center;
-    padding: 2em 6em;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #46cdcf;
-}
-li a.active {
-	background-color: #48466d;
-}
-/* TEST ABOVE */
 h1 {
 	font-size: 2.0em;
 	padding: 1em 1em;

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* For the navbar */
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0em 0em;
+    overflow: hidden;
+    background-color: #3d84a8;
+}
+
+div.navbar li {
+    float: left;
+}
+div.navbar a:link {
+    display: inline-block;
+    color: White;
+    text-align: center;
+    padding: 2em 6em;
+    text-decoration: none;
+}
+div.navbar a:hover {
+    background-color: #46cdcf;
+}
+div.navbar a.active {
+	background-color: #48466d;
+}
