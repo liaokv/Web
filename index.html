@@ -4,17 +4,45 @@
 <meta charset="utf-8">
 <title>Portfolio | Kevin Liao</title>
 <style type="text/css">
-/* Start of Heading Style*/
-h1 {
+/* Grouping of Style Stuff*/
+h1, p1, a, nav, li {
 	font-family: Verdana, Geneva, sans-serif;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 1em;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+li {
+    float: left;
+}
+
+li n {
+    display: inline-block;
+    color: Black;
+    text-align: center;
+    padding: 15em 15em;
+    text-decoration: none;
+}
+
+li n:hover {
+    background-color: #150;
+}
+/* TEST ABOVE */
+h1 {
 	font-size: 2.0em;
 	padding: 1em 1em;
 	text-align: center;
 	margin:auto;
 }
+p1 {
+	font-size: 0.9em;
+}
 a:link, a:visited {
 	font-weight: bold;
-	font-family: Verdana, Geneva, sans-serif;
     background-color: #ff9966;
     color: white;
     padding: 1em 2em;
@@ -31,10 +59,18 @@ a:hover, a:active {
 </head>
 
 <body>
-	<h1>Some fun example text!</h1>
-    <p>Example text</p>
+<nav>
+	<li><n class="active" href="#home">Home</n></li>
+  <li><n href="#news">News</n></li>
+  <li><n href="#contact">Contact</n></li>
+  <li><n href="#about">About</n></li>
+</nav>
+
+<h1>Some fun example text!</h1>
+<p1>Example text</p1>
     <p>
 	    <a href="http://google.com/">Google</a>
+        <a href="http://my.umbc.edu/">UMBC</a>
     </p>
 </body>
 </html>
