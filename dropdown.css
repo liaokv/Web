@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*Dropdown Gargage */
+.dropdown-content {
+	display: none;
+    position: fixed;
+	top: 5em;
+	left: 0em;
+    background-color: #393e46;
+    min-width: 1em;}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown-content a {
+	padding: 0;
+	margin: 0;
+    text-decoration: none;
+    display: block;}
+

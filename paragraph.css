@@ -7,5 +7,5 @@ div.buttons a:link, a:visited {
     text-align: center;	
     text-decoration: none;
     display: inline-block;}
-div. buttons a:hover, a:active {
+div.buttons a:hover, a:active {
     background-color: red;}
