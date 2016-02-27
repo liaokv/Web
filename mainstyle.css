@@ -30,7 +30,7 @@ h2 {
 }	
 div.page2 {
 	position: absolute;
-	right: 30em;
+	right: 50%;
 	left:4em;
 	top: 100%;
 	color:black;
@@ -41,11 +41,22 @@ div.page2 p{
 #aboutme {
 	font-size:2em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+}
+#selfie{
+	position:absolute;
+	top:110%;
+	width: 30%;
+	left:60%;
+	border-style:solid;
+	border-color:black;
+	border-width:1em;
+	border-radius:1em;
+	
+	
 }
 div.page3{
 	position: absolute;
 	left: 1em;
 	top:200%;
 }
-
-	
