@@ -57,7 +57,7 @@ div.page2{
 	position:absolute;
 	top:100%;
 	left:4em;
-	right:40%;
+	right:4em;
 }
 #page2desc{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -73,11 +73,30 @@ div.page2{
 	letter-spacing:.2em;
 	font-weight:bold;
 }
+.alt{
+	color:#7E8F7C;
+	font-size:0.9em;
+	letter-spacing:0em;
+	font-weight:lighter;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	display: none;
+}
 .projects a:hover{
-	cursor: pointer;
 	color:#C63D0F;
 }
-
+/*Displaying all the hidden text*/	
+#pj1:hover + #pjj1{
+	display: inline;
+}
+#pj2:hover + #pjj2{
+	display: inline;
+}
+#pj3:hover + #pjj3{
+	display: inline;
+}
+#pj4:hover + #pjj4{
+	display: inline;
+}
 
 /*End of Page 2 Items*/
 div.page3 {
