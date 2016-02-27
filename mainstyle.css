@@ -49,9 +49,9 @@ div.page2 p{
 	width: 30%;
 	left:60%;
 	border-style:solid;
-	border-color:black;
-	border-width:1em;
-	border-radius:1em;
+	border-color:#46494A;
+	border-width:0.5em;
+	border-radius:0.5em;
 	
 	
 }
@@ -60,3 +60,5 @@ div.page3{
 	left: 1em;
 	top:200%;
 }
+
+	
