@@ -1,62 +1,32 @@
-@charset "utf-8";
-* { font-family: Geneva, Verdana, sans-serif;}
-#mainback {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	overflow: hidden;
-	z-index:-1;
-}
-h1, h2 {
-	font-family: Geneva, sans-serif;
-	position:absolute;
-	left:2em;
-	font-size:3.5em;
-	font-weight:bolder;
-	color:white;	
-	letter-spacing:.2em;
-	top: 1em;}
-h2 {
-	top:2em;}
-#desc {
-	position:absolute;
-	color:white;
-	font-size:2em;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	left:3.5em;
-	top:6.5em;
-}	
-div.page2 {
-	position: absolute;
-	right: 50%;
-	left:4em;
-	top: 100%;
-	color:black;
-}
-div.page2 p{
-	font-size:0.9em;
-}
-#aboutme {
-	font-size:2em;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:bold;
-}
-#selfie{
-	position:absolute;
-	top:110%;
-	width: 30%;
-	left:60%;
-	border-style:solid;
-	border-color:black;
-	border-width:1em;
-	border-radius:1em;
-	
-	
-}
-div.page3{
-	position: absolute;
-	left: 1em;
-	top:200%;
-}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kevin Liao</title>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="page1">
+<div id="mainback"><img src="http://i.imgur.com/4dT7xep.jpg?1"></div>
+<h1>KEVIN</h1>
+<h2>LIAO</h2>
+<p id="desc">TEACHER // SCIENTIST // FRIEND</p>
+</div>
+
+<div class="page2">
+<p id="aboutme">ABOUT ME</p>
+<p>Hello! My name is Kevin Liao (pronounced Lee-Ow).</p>
+<p>I'm a undergraduate at the University of Maryland Baltimore County, set to graduate in Spring 2016 with a B.S. in Biological Sciences and a minor in Professional Writing.</p>
+<p>I have a penchant for teaching and can be found yelling at the students who have the misfortune of being placed in my genetics discussion class. Additionally, I am a medical scribe (in training) for the ER department of the Shady Grove Medical Center located in Rockville, MD.</p>
+<p>Eventaully, I intend to enter Medical School and become a medical doctor. However, if that doesn't work out, there's always professional homelessness.  </p>
+<p>This site was created from scratch using HTML, CSS, JavaScript, and my tears.</p>
+</div>
+<img src="me.png" alt="Definitely me" id="selfie">
+
+
+<div class="page3">
+<p>Page 3</p>
+</div>
+</body>
+</html>
