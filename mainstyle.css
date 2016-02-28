@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import "navbar.css";
+@import "image.css";
+@import "sound.css";
 * { font-family: Geneva, Verdana, sans-serif;}
 #top{
 	position:absolute;
@@ -13,7 +15,7 @@
 	width:100%;
 	height:100%;
 	overflow: hidden;
-	z-index:2;
+	z-index:4;
 }
 #line1{
 	position:absolute;
@@ -22,7 +24,7 @@
 	width:34em;
 	height:1em;
 	background-color:#C63D0F;
-	z-index:3;
+	z-index:4;
 }
 h1, h2 {
 	font-family: Geneva, sans-serif;
@@ -44,10 +46,10 @@ h2 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	left:3.5em;
 	top:6.5em;
-	z-index:3;	
+	z-index:4;	
 }
 h1,h2{
-	z-index:3;
+	z-index:4;
 }
 #project{
 	position:absolute;
