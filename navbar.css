@@ -1,0 +1,40 @@
+@charset "utf-8";
+.uparrow img{
+	position:fixed;
+	right:0.01em;
+	top:0.01em;
+	width:3em;
+	height:3em;
+	z-index:2;	
+}
+.navs{
+	position:absolute;
+	left:9em;
+	top:24em;
+	color:white;
+	z-index:3;
+}
+.navs a{
+	color:#7E8F7C;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:1.1em;
+	padding:0.8em;
+}
+#bwork{
+	border-style:solid;
+	border-radius:0.5em;
+	border-width:0.4em;
+}
+#babout{
+	border-style:solid;
+	border-radius:0.5em;
+	border-width:0.4em;
+}
+.hidden{
+	visibility:hidden;
+}
+.navs a:hover{
+	color:white;
+}
+	
+	
