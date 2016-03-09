@@ -48,5 +48,13 @@
 .navs a:hover{
 	color:white;
 }
-	
-	
+#cclicense{
+	position:absolute;
+	top:290%;
+	height:10%;
+	width:auto;
+	z-index:3;
+	top:290%;
+	z-index:3;
+	font-size: 0.9em;
+}
