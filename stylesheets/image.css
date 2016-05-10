@@ -31,10 +31,24 @@
 #imagestatement{
 	position:absolute;
 	top:130%;
-	left:50%;
+	left:30%;
 	right:5%;
 }
 #videostatement:hover{
 	color:#C63D0F;
 }
-
+#kee1{
+	position:absolute;
+	top:140%;
+	left:5%;
+}
+#kee2{
+	position:absolute;
+	top:140%;
+	left:35%;
+}
+#kee3{
+	position:absolute;
+	top:140%;
+	left:65%;
+}
